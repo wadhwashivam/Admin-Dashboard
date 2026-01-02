@@ -1,0 +1,25 @@
+.container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+.sidebar{
+    grid-column: 1/2;
+    background-color: #1992D4;
+}
+
+.personal ul li{
+    list-style-type: none;
+}
+
+.settings ul li{
+    list-style-type: none;
+}
+
+.contentPage{
+    grid-column: 2/3;
+}
+
+.content{
+    background-color: #E2E8F0;
+}
