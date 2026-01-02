@@ -4,13 +4,23 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Admin Dashboard</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <div class="container">
       <!-- Sidebar -->
       <div class="sidebar">
-        <h2>Dashboard</h2>
+        <div class="sidebarHeader">
+          <img src="assets/dashboard.svg" alt="" />
+          <h2>Dashboard</h2>
+        </div>
         <div class="personal">
           <ul>
             <li>Home</li>
@@ -31,42 +41,39 @@
       </div>
 
       <div class="contentPage">
-      <!-- Header -->
+        <!-- Header -->
         <div class="header">
             <div class="search-bar">
-            <!-- Search Icon -->
-            <input type="search" name="searchBar" id="searchBar" />
+              <!-- Search Icon -->
+              <input type="search" name="searchBar" id="searchBar" />
             </div>
             <div class="profileIcon">
-            <!-- Ring Icon -->
-            <!-- Profile Image -->
-            <span>Morgan Oakley</span>
+              <!-- Ring Icon -->
+              <!-- Profile Image -->
+              <span>Morgan Oakley</span>
             </div>
-        </div>
+          </div>
 
-        <!-- NavBar -->
-        <!-- <div class="navbar">
-            <div class="userProfile">
-                <span>Hi there,</span>
-                <span>Morgan Oakley (@morgan)</span>
-            </div>
-            <div class="nav">
-                <ul>
-                    <li>New</li>
-                    <li>Upload</li>
-                    <li>Share</li>
-                </ul>
-            </div>
-        </div> -->
+          <div class="userProfile">
+            <span>Hi there,</span>
+            <h3>Morgan Oakley (@morgan)</h3>
+          </div>
+          <div class="nav">
+            <ul>
+              <li>New</li>
+              <li>Upload</li>
+              <li>Share</li>
+            </ul>
+          </div>
 
         <!-- Content -->
-            <div class="content">
-                <!-- Color for the yellow part : F0B429 -->
-                <div class="projects">Project Cards</div>
-                <div class="announcements">Annoucements</div>
-                <div class="trending">Trending Content</div>
-            </div>
+        <div class="content">
+          <!-- Color for the yellow part : F0B429 -->
+          <div class="projects">Project Cards</div>
+          <div class="announcements">Annoucements</div>
+          <div class="trending">Trending Content</div>
         </div>
+      </div>
     </div>
   </body>
 </html>
