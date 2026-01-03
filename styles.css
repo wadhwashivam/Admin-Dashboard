@@ -5,7 +5,7 @@ body{
 }
 .container {
   display: grid;
-  grid-template-columns: 1fr 5fr;
+  grid-template-columns: 1fr 4fr;
 }
 
 .container div {
@@ -21,31 +21,115 @@ body{
 
 .sidebarHeader {
   display: flex;
+  gap: 10px;
 }
 .sidebarHeader img {
   filter: invert(100%);
-  width: 4em;
-  padding-left: 0.5vw;
+  width: 3.5em;
+  padding-left: 2vw;
 }
 
 .sidebarHeader h2 {
   align-self: center;
+  margin-left: 0.5vw;
 }
 
 .personal ul li {
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  font-size: 18px;
+}
+
+.personal span{
+  margin-left: 1vw;
+}
+
+.navIcons{
+  width: 1.5em;
+  filter: invert(100%);
+  margin-left: 1vw;
 }
 
 .settings ul li {
   list-style-type: none;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-top: 20px;
+  font-size: 18px;
 }
 
+.settings span{
+  margin-left: 1vw;
+}
 .contentPage {
   grid-column: 2/3;
 }
 
 .header{
+  margin-top: 20px;
     display: grid;
+    grid-template-columns: 1.5fr 1fr;
+}
+
+.search-bar{
+  display: flex;
+  padding-left: 0.5vw;
+}
+
+.search-bar img{
+  width: 1.5em;
+}
+.search-bar input{
+  background-color: #e2e8f0;
+  border-radius: 20px;
+  color: #000000;
+  border: 1px solid #cccccc;
+  margin-left: 20px;
+  width: 500px;
+}
+
+.profileIcon{
+  display: flex;
+  justify-content: space-between;
+}
+
+.profileIcon img{
+  width: 1.5em;
+}
+
+.profileIcon span{
+  align-self: center;
+  font-weight: 500;
+  margin-right: 10vw;
+}
+
+.userProfile{
+  margin-left: 50px;
+  padding: 10px 0px;
+}
+.userName {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+.nav{
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.nav button{
+  background-color: #1992d4;
+  color: white;
+  border-radius: 100px;
+  padding: 0px 30px;
+  margin: 10px 20px;
+  font-size: 15px;
+  font-weight: 450;
+  border: 1px solid #cccccc;
 }
 
 .content {
