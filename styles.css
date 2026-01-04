@@ -16,7 +16,7 @@ body{
   grid-column: 1/2;
   background-color: #1992d4;
   color: white;
-  height: 99vh;
+  /* height: 99vh; */
 }
 
 .sidebarHeader {
@@ -72,7 +72,7 @@ body{
 .header{
   margin-top: 20px;
     display: grid;
-    grid-template-columns: 1.5fr 1fr;
+    grid-template-columns: 2fr 1fr;
 }
 
 .search-bar{
@@ -134,4 +134,70 @@ body{
 
 .content {
   background-color: #e2e8f0;
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  /* height: 85vh; */
+}
+
+.projects{
+  grid-column: 1/2;
+  grid-row: 1/3;
+}
+
+.announcements {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  overflow: hidden;
+}
+.outerBox{
+  background-color: white;
+  border-radius: 12px;
+  padding: 24px;
+}
+
+.innerBox{
+  display: flex;
+  flex-direction: column;
+}
+
+.categoryDiv{
+  border-bottom: 1px solid #e0e0e0;
+  padding: 12px 0;
+}
+.categoryDiv:last-child{
+  border-bottom: none;
+}
+
+.headline{
+  font-weight: 700;
+  font-size: 0.95rem;
+  display: block;
+  margin-bottom: 4px;
+}
+.categoryContent{
+  color: #666;
+  font-size: 0.85rem;
+  line-height: 1.4;
+}
+
+.trending{
+  grid-column: 2/3;
+  grid-row: 2/3;
+}
+
+.category{
+  font-weight: 500;
+  display: block;
+  margin: 15px 0;
+}
+
+.trendingDiv{
+  padding: 12px 0;
+}
+
+.profileName{
+  display: block;
+  font-size: 0.95rem;
+  margin-bottom: 4px;
 }
